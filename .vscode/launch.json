@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch with LLDB",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/app.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/build",
+            "console": "integratedTerminal"
+        }
+    ]
+}
